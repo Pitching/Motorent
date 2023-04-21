@@ -1,10 +1,16 @@
-import './App.css';
+import './App.scss';
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      Main Page!
-    </div>
+    <main>
+      <nav>
+        <Navbar />
+      </nav>
+      <div className="App">
+        Main Page!
+      </div>
+    </main>
   );
 }
 
