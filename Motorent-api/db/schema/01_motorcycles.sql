@@ -1,5 +1,3 @@
--- Drop and recreate Users table (Example)
-
 DROP TABLE IF EXISTS motorcycles CASCADE;
 CREATE TABLE motorcycles (
   id SERIAL PRIMARY KEY NOT NULL,
