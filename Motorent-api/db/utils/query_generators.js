@@ -17,3 +17,5 @@ const generateSelectQuery = (tableName, queryobj = {}) => {
     values
   }
 }
+
+exports.generateSelectQuery = generateSelectQuery
