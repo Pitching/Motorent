@@ -1,12 +1,13 @@
 const db = require('./connection')
+const { generateSelectQuery } = require('./utils/query_generators');
 
 const motorentDb = {
 
   motorcycles: {
-    getById: async (motorcycleId) => {
+    getByMotorcycleId: async (motorcycleId) => {
       const { query, values }  = generateSelectQuery("motorcycles", {
         where: {
-          id: campaignId
+          motorcycle_id: motorcycleId
         }
       })
 
