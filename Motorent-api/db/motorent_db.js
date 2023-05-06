@@ -4,6 +4,21 @@ const { generateSelectQuery } = require('./utils/query_generators');
 const motorentDb = {
 
   motorcycles: {
+
+    getAll: async () => {
+      const query = `
+      SELECT * FROM motorcycles
+      `
+
+      try {
+        const result = await db.query(query)
+        return result.rows
+      }
+      catch (err) {
+        throw err
+      }
+    },
+
     getByMotorcycleId: async (motorcycleId) => {
       const { query, values }  = generateSelectQuery("motorcycles", {
         where: {
