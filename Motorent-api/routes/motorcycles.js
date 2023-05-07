@@ -5,11 +5,13 @@
  * See: https://expressjs.com/en/guide/using-middleware.html#middleware.router
  */
 
-const { getMotorcycleById } = require('../handlers/motorcycles');
+const { getMotorcycleById, getMotorcycles } = require('../handlers/motorcycles');
 
 const express = require('express');
 const router  = express.Router();
 
 router.get('/:id', getMotorcycleById);
+
+router.get('/', getMotorcycles);
 
 module.exports = router;

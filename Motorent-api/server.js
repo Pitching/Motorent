@@ -5,11 +5,15 @@ require('dotenv').config();
 const sassMiddleware = require('./lib/sass-middleware');
 const express = require('express');
 const morgan = require('morgan');
+const bodyParser = require('body-parser')
+const motorcyclesRoutes = require('./routes/motorcycles');
 
 const PORT = process.env.PORT || 3002;
 const app = express();
 
 app.set('view engine', 'ejs');
+
+app.use(bodyParser.json());
 
 // Load the logger first so all (static) HTTP requests are logged to STDOUT
 // 'dev' = Concise output colored by response status for development use.
@@ -28,7 +32,6 @@ app.use(express.static('public'));
 
 // Separated Routes for each Resource
 // Note: Feel free to replace the example routes below with your own
-const motorcyclesRoutes = require('./routes/motorcycles');
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
@@ -41,7 +44,7 @@ app.use('/api/motorcycles', motorcyclesRoutes);
 // Separate them into separate routes files (see above).
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index',);
 });
 
 app.listen(PORT, () => {
