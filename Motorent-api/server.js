@@ -36,7 +36,9 @@ app.use(express.static('public'));
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
 // Note: Endpoints that return data (eg. JSON) usually start with `/api`
-app.use('/api/motorcycles', motorcyclesRoutes);
+app.use('/', motorcyclesRoutes);
+
+
 // Note: mount other resources here, using the same pattern above
 
 // Home page
@@ -44,7 +46,7 @@ app.use('/api/motorcycles', motorcyclesRoutes);
 // Separate them into separate routes files (see above).
 
 app.get('/', (req, res) => {
-  res.render('index',);
+  res.render('index');
 });
 
 app.listen(PORT, () => {

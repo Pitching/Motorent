@@ -6,10 +6,7 @@ const motorentDb = {
   motorcycles: {
 
     getAll: async () => {
-      const query = `
-      SELECT * FROM motorcycles
-      `
-
+      const query = `SELECT * FROM motorcycles`
       try {
         const result = await db.query(query)
         return result.rows
