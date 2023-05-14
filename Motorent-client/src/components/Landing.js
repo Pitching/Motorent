@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 const Landing = () => {
   return (
+    <Card style={{ width: '18rem' }}
     
   );
 }
