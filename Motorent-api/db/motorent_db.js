@@ -19,7 +19,7 @@ const motorentDb = {
     getByMotorcycleId: async (motorcycleId) => {
       const { query, values }  = generateSelectQuery("motorcycles", {
         where: {
-          motorcycle_id: motorcycleId
+          id: motorcycleId
         }
       })
 
