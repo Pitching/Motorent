@@ -10,7 +10,7 @@ const Landing = () => {
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          
+          example text
         </Card.Text>
       </Card.Body>
     </Card>
