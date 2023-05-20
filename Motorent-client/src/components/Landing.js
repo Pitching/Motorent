@@ -12,6 +12,7 @@ const Landing = () => {
         <Card.Text>
           example text
         </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
   );
