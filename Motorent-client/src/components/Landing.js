@@ -17,3 +17,5 @@ const Landing = () => {
     </Card>
   );
 }
+
+export
