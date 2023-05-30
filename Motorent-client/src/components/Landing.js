@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 function Landing() {
   return (
-    <main>
+    <div>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
@@ -16,7 +16,7 @@ function Landing() {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
-    </main>
+    </div>
   );
 }
 
