@@ -5,7 +5,7 @@ function SingleView() {
     <div>
       <Carousel>
         <Carousel.Item>
-          
+          <img />
         </Carousel.Item>
       </Carousel>
     </div>
