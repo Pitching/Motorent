@@ -6,7 +6,7 @@ function SingleView() {
       <Carousel>
         <Carousel.Item>
           <img 
-            className=""
+            className="d-block w-100"
           />
         </Carousel.Item>
       </Carousel>
