@@ -10,6 +10,9 @@ function SingleView() {
             src="holder.js/800x400?text=First slide&bg=373940"
             alt="First slide"
           />
+          <Carousel.Caption>
+            
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
