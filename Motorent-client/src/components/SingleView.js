@@ -11,7 +11,7 @@ function SingleView() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3></h3>
+            <h3>First slide label</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
