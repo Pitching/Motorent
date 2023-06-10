@@ -12,6 +12,7 @@ function SingleView() {
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
+            <p>Text which will serve as the description</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
