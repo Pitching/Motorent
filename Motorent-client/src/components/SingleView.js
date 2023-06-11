@@ -16,7 +16,9 @@ function SingleView() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          
+          <img 
+            
+          />
         </Carousel.Item>
       </Carousel>
     </div>
