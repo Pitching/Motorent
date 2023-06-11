@@ -15,6 +15,9 @@ function SingleView() {
             <p>Text which will serve as the description</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          
+        </Carousel.Item>
       </Carousel>
     </div>
   );
