@@ -17,7 +17,8 @@ function SingleView() {
         </Carousel.Item>
         <Carousel.Item>
           <img 
-            
+            className="d-block w-100"
+            src="holder.js"
           />
         </Carousel.Item>
       </Carousel>
