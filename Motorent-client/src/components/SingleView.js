@@ -21,6 +21,9 @@ function SingleView() {
             src="holder.js/800x400?text=Second slide&bg=282c34"
             alt="Second slide"
           />
+          <Carousel.Caption>
+            
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
