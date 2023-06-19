@@ -22,7 +22,7 @@ function SingleView() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            
+            <h3>Second slide label</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
