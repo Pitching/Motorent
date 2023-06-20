@@ -23,6 +23,7 @@ function SingleView() {
           />
           <Carousel.Caption>
             <h3>Second slide label</h3>
+            <p>Text which will serve as more info for the item in second slide</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
